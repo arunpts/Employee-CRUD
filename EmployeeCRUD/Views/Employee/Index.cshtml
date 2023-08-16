@@ -6,7 +6,10 @@
 
 @if (TempData["ResultOk"] != null)
 {
-    <h1 class="alert-success">@TempData["ResultOk"]</h1>
+    <div class="alert alert-success notification col-md-6">
+        <h4 class="alert-success">@TempData["ResultOk"]</h4>
+    </div>
+    
 }
 
 <div class="container shadow p-5">

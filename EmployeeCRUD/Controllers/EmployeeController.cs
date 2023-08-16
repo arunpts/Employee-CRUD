@@ -23,7 +23,6 @@ namespace EmployeeCRUD.Controllers
         }
         //POST
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Create(Employee empobj)
         {
             if (ModelState.IsValid)
